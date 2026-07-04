@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#113f46">
+    <meta
+      name="description"
+      content="TimeLine helps teams report project and line hours, manage company records, and keep time ready for review."
+    >
+    <title>TimeLine</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="./css/theme.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/components.css">
+    <script src="./data/supabaseConfig.js"></script>
+    <script src="./data/stripeConfig.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script type="module" src="./js/main.js"></script>
+  </head>
+  <body>
+    <div id="app" class="app-root">
+      <main class="boot-screen" aria-busy="true">
+        <p class="eyebrow">TimeLine</p>
+        <h1>Loading TimeLine</h1>
+        <p>Preparing the reporting surface.</p>
+      </main>
+    </div>
+  </body>
+</html>
